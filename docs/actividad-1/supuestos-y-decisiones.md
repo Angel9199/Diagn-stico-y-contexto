@@ -14,7 +14,7 @@ Arquitectura de integración: Se acordó que el sistema no gestionará directame
 
 Alcance transaccional inicial: Se decidió acotar el alcance de esta primera fase a la gestión logística y operativa, excluyendo temporalmente algoritmos predictivos complejos de demanda basados en inteligencia artificial.
 
--¿Qué aún sé? 
+-¿Qué aún no sé? 
 
 Volumetría exacta y concurrencia: Todavía no se conoce con precisión el volumen pico de pedidos simultáneos que la plataforma deberá soportar durante temporadas de alta demanda (como días festivos o campañas de descuentos masivos)
 
