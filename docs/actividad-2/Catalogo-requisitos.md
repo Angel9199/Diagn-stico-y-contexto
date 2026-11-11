@@ -20,6 +20,14 @@ RF05: Gestión de incidencias y trazabilidad de devoluciones
 
 Descripción: El sistema debe registrar anomalías operativas (retrasos, fallos de entrega, rechazos de mercancía) y mantener un historial auditable accesible por el equipo de servicio al cliente.
 
+RF06 Selección / Adición de Ventana de Entrega
+
+Descripción: Permite especificar un rango horario de entrega sin alterar el contrato base de creación del pedido.
+
+RNF07 Evolución de Contratos / Extensibilidad de la API
+
+Descripción: Las APIs de creación de pedidos deben diseñarse de forma extensible (compatibilidad hacia atrás), permitiendo añadir atributos nuevos (como ventanas de entrega) sin romper clientes móviles existentes.
+
 2. Atributos de Calidad (Requisitos No Funcionales - RNF)
 RNF01: Rendimiento y tiempo de respuesta
 

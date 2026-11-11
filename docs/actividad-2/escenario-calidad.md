@@ -17,14 +17,15 @@ Respuesta: El sistema gestiona las solicitudes de recepción de pedidos y valida
 
 Medida (Métrica): La plataforma debe soportar al menos 1.000 transacciones por hora manteniendo una tasa de errores inferior al 0.5% y sin degradación crítica en los tiempos de respuesta.
 
-3. Escenario de Modificabilidad / Mantenibilidad (Reglas de Negocio)
-Estímulo: El equipo de operaciones requiere actualizar las reglas de negocio para el cálculo de tarifas o la asignación de rutas de última milla.
+3. Escenario de Modificabilidad (Extensibilidad del Contrato de Pedidos):
 
-Entorno: Fase de evolución y mantenimiento del software.
+Estímulo: El equipo añade el atributo de "ventana de entrega" (rango horario) a la estructura del pedido desde la app móvil.
 
-Respuesta: El equipo de desarrollo modifica la lógica correspondiente dentro del módulo aislado de rutas/logística sin alterar los esquemas de autenticación o la pasarela de pagos.
+Entorno: Evolución del módulo de pedidos en producción.
 
-Medida (Métrica): El cambio de la regla de negocio debe implementarse, probarse e integrarse sin requerir una refactorización completa ni un despliegue total de la aplicación monolítica, tomando un tiempo menor a 1 jornada de desarrollo.
+Respuesta: El contrato de la API procesa el nuevo campo de forma opcional/extensible sin requerir una versión destructiva de la API ni romper las versiones de la aplicación móvil que no envíen dicho campo.
+
+Medida: 0 errores de integración o caídas en la aplicación móvil tras incorporar la nueva propiedad.
 
 4. Escenario de Seguridad (Confidencialidad de Datos)
 Estímulo: Un actor malintencionado intenta interceptar el tráfico de red o acceder directamente a las tablas de la base de datos que contienen información personal de los clientes (direcciones, teléfonos) y accesos.
@@ -34,3 +35,13 @@ Entorno: Tráfico en redes públicas de internet y almacenamiento en servidores.
 Respuesta: El sistema bloquea accesos no autorizados mediante políticas estrictas de control y mantiene los datos cifrados.
 
 Medida (Métrica): Toda la información sensible debe permanecer cifrada tanto en tránsito (usando HTTPS/TLS) como en reposo en la base de datos, cumpliendo con los estándares básicos de protección de datos.
+
+5. Escenario de Escalabilidad (Picos de Campaña):
+
+Estímulo: Se lanza una campaña comercial de alto impacto que genera un pico repentino de tráfico y solicitudes de creación de pedidos.
+
+Entorno: Producción bajo concurrencia masiva e imprevista.
+
+Respuesta: La arquitectura del monolito modular absorbe la carga mediante encolamiento/procesamiento eficiente de transacciones de pedido e inventario.
+
+Medida: Disponibilidad del 99.9% durante el pico de campaña y tiempo de respuesta para crear pedidos inferior a 2 segundos.
