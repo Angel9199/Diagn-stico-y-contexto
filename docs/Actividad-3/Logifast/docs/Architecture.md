@@ -24,6 +24,7 @@ Esta documentación refleja el diseño arquitectónico y de dominio de **LogiFas
 ## 4. Diagrama C4 (Contexto, Contenedores y Componentes del Flujo)
 
 ### Nivel 1 y 2 — Contexto y Contenedores (Monolito Modular LogiFast)
+
 ```mermaid
 C4Context
     title Diagrama de Contexto - LogiFast (Flujo de Entregas)
@@ -35,8 +36,12 @@ C4Context
     Rel(operador, logifast, "Solicita asignar repartidor a entrega")
     Rel(repartidor, logifast, "Consulta y actualiza estado de entrega")
     Rel(canales, logifast, "Envía pedidos y consultas")
+```
 
-    flowchart LR
+### Nivel 3 — Componentes del Flujo `AssignCourier`
+
+```mermaid
+flowchart LR
     subgraph Infra["LogiFast.Infrastructure"]
         RepoImpl["InMemoryDeliveryRepository\n(Adaptador)"]
     end
@@ -56,3 +61,4 @@ C4Context
     Delivery --> VOs
     RepoImpl -.->|"implementa"| Port
     RepoImpl -->|"manipula"| Delivery
+```
