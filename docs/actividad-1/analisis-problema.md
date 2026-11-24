@@ -20,4 +20,4 @@ Para que el problema pueda resolverse de forma eficiente en el diseño del siste
 -Ubicación y disponibilidad del inventario: Stock exacto por cada almacén o tienda física distribuidos.
 -Tiempos y asignación de rutas: Variables geográficas, de distancia y de capacidad de carga de los repartidores.
 -Canal de origen: Identificación de la fuente por donde ingresó la orden de compra.
--Registro de incidencias: Variables asociadas a fallos en la entrega, devoluciones o 
+-Registro de incidencias: Variables asociadas a fallos en la entrega, y devoluciones 
