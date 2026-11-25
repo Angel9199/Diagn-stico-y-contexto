@@ -85,3 +85,24 @@ Diseño del modelo de dominio, límites de contexto, casos de uso, puertos y ada
 ## Escenarios de aceptación (Dado-Cuando-Entonces)
 * **Dado** una entrega pendiente sin repartidor y un repartidor disponible, **Cuando** se ejecuta la asignación, **Entonces** la entrega queda en estado `Assigned` con el `courierId` correspondiente[cite: 2, 4, 5].
 * **Dado** una entrega ya asignada a un repartidor, **Cuando** se intenta asignar otro repartidor, **Entonces** el dominio rechaza la operación y conserva la asignación original[cite: 3, 4, 5].
+
+# LogiFast — Actividad 4: Implementación y Validación (`AssignCourier`)
+
+Implementación ejecutable del flujo **Asignar repartidor** (`AssignCourier`) como *vertical slice* sobre una arquitectura de Monolito Modular con Puertos y Adaptadores en .NET.
+
+## Estructura del proyecto
+* `src/LogiFast.Domain`: Entidad `Delivery`, objetos de valor e invariantes de negocio.
+* `src/LogiFast.Application`: Caso de uso `AssignCourierUseCase` y puerto `IDeliveryRepository`.
+* `src/LogiFast.Infrastructure`: Adaptador `InMemoryDeliveryRepository`.
+* `src/LogiFast.Api`: Endpoint `POST /api/deliveries/{deliveryId}/assign-courier`, DTO `AssignCourierRequest`, manejo de errores y registro de logs.
+* `tests/LogiFast.Domain.Tests`: Pruebas unitarias de invariantes y comprobación automatizada de límites del dominio (`ArchitectureTests`).
+* `tests/LogiFast.Integration.Tests`: Pruebas de integración del flujo (camino exitoso y rechazo por doble asignación).
+* `docs/`: Expediente de diseño (diagramas, ADR, decisiones) y `riesgos-y-observabilidad.md`.
+
+## Ejecución de pruebas
+
+Desde la carpeta `docs/Actividad-3-4/Logifast`:
+
+```powershell
+dotnet test .\tests\LogiFast.Domain.Tests\LogiFast.Domain.Tests.csproj
+dotnet test .\tests\LogiFast.Integration.Tests\LogiFast.Integration.Tests.csproj

@@ -1,0 +1,16 @@
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\LogiFast.Application.csproj.AssemblyReference.cache
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\LogiFast.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\LogiFast.Application.AssemblyInfoInputs.cache
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\LogiFast.Application.AssemblyInfo.cs
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\LogiFast.Application.csproj.CoreCompileInputs.cache
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\LogiFast.Application.sourcelink.json
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\bin\Debug\net10.0\LogiFast.Application.deps.json
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\bin\Debug\net10.0\LogiFast.Application.dll
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\bin\Debug\net10.0\LogiFast.Application.pdb
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\bin\Debug\net10.0\LogiFast.Domain.dll
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\bin\Debug\net10.0\LogiFast.Domain.pdb
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\LogiFast.B566D5EB.Up2Date
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\LogiFast.Application.dll
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\refint\LogiFast.Application.dll
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\LogiFast.Application.pdb
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Application\obj\Debug\net10.0\ref\LogiFast.Application.dll

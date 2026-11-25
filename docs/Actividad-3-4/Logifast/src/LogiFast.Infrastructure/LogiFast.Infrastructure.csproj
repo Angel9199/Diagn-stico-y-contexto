@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LogiFast.Application\LogiFast.Application.csproj" />
+    <ProjectReference Include="..\LogiFast.Domain\LogiFast.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

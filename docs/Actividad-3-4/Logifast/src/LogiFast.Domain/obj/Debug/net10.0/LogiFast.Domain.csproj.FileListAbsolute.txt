@@ -1,0 +1,12 @@
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\bin\Debug\net10.0\LogiFast.Domain.deps.json
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\bin\Debug\net10.0\LogiFast.Domain.dll
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\bin\Debug\net10.0\LogiFast.Domain.pdb
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\obj\Debug\net10.0\LogiFast.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\obj\Debug\net10.0\LogiFast.Domain.AssemblyInfoInputs.cache
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\obj\Debug\net10.0\LogiFast.Domain.AssemblyInfo.cs
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\obj\Debug\net10.0\LogiFast.Domain.csproj.CoreCompileInputs.cache
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\obj\Debug\net10.0\LogiFast.Domain.sourcelink.json
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\obj\Debug\net10.0\LogiFast.Domain.dll
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\obj\Debug\net10.0\refint\LogiFast.Domain.dll
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\obj\Debug\net10.0\LogiFast.Domain.pdb
+C:\Optativa2\Diagn-stico-y-contexto\docs\Actividad-3-4\Logifast\src\LogiFast.Domain\obj\Debug\net10.0\ref\LogiFast.Domain.dll
